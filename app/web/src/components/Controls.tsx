@@ -1,7 +1,9 @@
 import React from 'react';
 
+import type { HaikuOptions } from '../utils/generator';
+
 interface ControlsProps {
-  onGenerate: (options: any) => void; // Will refine 'any' later
+  onGenerate: (options: HaikuOptions) => void; // Will refine 'any' later
 }
 
 const Controls: React.FC<ControlsProps> = ({ onGenerate }) => {
