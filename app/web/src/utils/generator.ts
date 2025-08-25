@@ -106,7 +106,7 @@ export function generateHaiku(options: HaikuOptions, lexicon: Lexicon): Haiku {
   const namePool = relevantWrestlers.flatMap(w => [w.name, ...w.aliases]);
   const actionPool = relevantWrestlers.flatMap(w => [...w.finishers, ...w.catchphrases]);
   
-  let contextPool = [...lexicon.tropes, ...lexicon.objects, ...lexicon.pivots];
+  const contextPool = [...lexicon.tropes, ...lexicon.objects, ...lexicon.pivots];
   if (options.show) {
       contextPool.push(options.show);
   }
