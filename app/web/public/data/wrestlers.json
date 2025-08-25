@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Hulk Hogan",
+    "aliases": ["Hollywood Hogan"],
+    "finishers": ["Leg Drop"],
+    "catchphrases": ["Whatcha gonna do"],
+    "factions": ["nWo"],
+    "era": "Rock 'n' Wrestling"
+  },
+  {
+    "name": "Steve Austin",
+    "aliases": ["Stone Cold"],
+    "finishers": ["Stone Cold Stunner"],
+    "catchphrases": ["Austin 3:16", "Gimme a hell yeah"],
+    "factions": [],
+    "era": "Attitude"
+  },
+  {
+    "name": "Daniel Bryan",
+    "aliases": ["American Dragon"],
+    "finishers": ["Yes! Lock"],
+    "catchphrases": ["Yes! Yes! Yes!"],
+    "factions": [],
+    "era": "Reality"
+  },
+  {
+    "name": "Roman Reigns",
+    "aliases": ["The Tribal Chief"],
+    "finishers": ["Guillotine Choke", "Spear"],
+    "catchphrases": ["Acknowledge me"],
+    "factions": ["The Bloodline"],
+    "era": "Tribal Chief"
+  }
+]
