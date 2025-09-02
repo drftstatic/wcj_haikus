@@ -30,7 +30,6 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Wrestling Haiku Generator | WCJ',
     description: 'Transform your hottest wrestling takes into poetic art',
-    creator: '@WCJerks',
     images: ['/og-image.png'],
   },
   icons: {

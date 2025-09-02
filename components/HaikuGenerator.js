@@ -49,8 +49,8 @@ export default function HaikuGenerator() {
 
   const tweetHaiku = () => {
     // Use AI-generated hashtags and mentions, with defaults
-    const allHashtags = ['#WrestlingHaiku', ...(hashtags || [])]
-    const allMentions = ['@WCJerks', ...(mentions || [])]
+    const allHashtags = ['#WrestlingHaiku', '#WrestlingCircleJerks', ...(hashtags || [])]
+    const allMentions = [...(mentions || [])]
     
     // Build the tweet text
     const hashtagString = allHashtags.join(' ')
